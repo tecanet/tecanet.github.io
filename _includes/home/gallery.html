@@ -1,0 +1,30 @@
+<!-- Gallery section -->
+<section id="gallery" class="gallery section-padding">
+  <div class="container">
+    <h1 class="text-center section-heading">Gallery</h1>
+
+    <div class="row">
+      {% for img_index in (1..8) %}
+      <div class="col-md-3 col-6">
+        <a href="{{ site.image_base_url }}/gallery/{{ img_index }}.jpg" class="gallery-link">
+          <img
+            src="{{ site.image_base_url }}/gallery/{{ img_index }}.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div
+      class="row action-btns justify-content-center align-items-center text-center mt-3"
+    >
+      <div class="col-md-3 col-9">
+        <a href="/gallery" class="btn btn-outline-primary px-5 py-3 w-100">
+         View All
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

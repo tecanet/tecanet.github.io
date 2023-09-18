@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="image-wrapper mb-2">
+      {% if include.url1 %}
+      <a href="{{ include.url1 }}" title="{{ include.title1 }}" target="_blank">
+        {% endif %}
+
+        <img data-src="{{ site.image_base_url }}/{{ include.path1 }}" alt="{{ include.title1 }}" class="{{ include.class1 }} lozad img-fluid" data-proofer-ignore/>
+
+        {% if include.url1 %}
+      </a>
+      {% endif %}
+
+      <p class="image-caption text-center">
+        {% if include.caption1 %}
+          {{ include.caption1 }}
+        {% endif %}
+        {% if include.photo_credits1 %}
+          Photo: {{ include.photo_credits1 }}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="image-wrapper mb-2">
+      {% if include.url2 %}
+      <a href="{{ include.url2 }}" title="{{ include.title2 }}" target="_blank">
+        {% endif %}
+
+        <img data-src="{{ site.image_base_url }}/{{ include.path2 }}" alt="{{ include.title2 }}" class="{{ include.class2 }} lozad img-fluid" data-proofer-ignore />
+
+        {% if include.url2 %}
+      </a>
+      {% endif %}
+
+      <p class="image-caption text-center">
+        {% if include.caption2 %}
+          {{ include.caption2 }}
+        {% endif %}
+        {% if include.photo_credits2 %}
+          Photo: {{ include.photo_credits2 }}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>

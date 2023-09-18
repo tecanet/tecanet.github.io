@@ -1,0 +1,36 @@
+<div class="col-lg-3 col-md-4 col-12">
+  <div id="blog-card" class="card mob-mb-0">
+    {% if include.video.source_platform == "facebook" %}
+    <a
+      href="#"
+      data-src="{{ include.video.src }}"
+      data-bs-toggle="modal"
+      data-bs-target="#facebookVideoModal"
+      class="facebook-video-btn"
+    >
+      <img
+        src="{{ site.image_base_url }}/{{ include.video.thumbnail }}"
+        class="card-img-top"
+        alt="{{ include.video.title }}"
+      />
+    </a>
+    <div class="card-body">
+      <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+    </div>
+    {% else %}
+    <a
+      href="#"
+      data-src="https://www.youtube.com/embed/{{ include.video.src }}"
+      data-bs-toggle="modal"
+      data-bs-target="#youtubeVideoModal"
+      class="youtube-video-btn"
+    >
+      <img src="https://img.youtube.com/vi/{{ include.video.src
+      }}/hqdefault.jpg" class="card-img-top" alt="{{ include.video.title }}"" />
+    </a>
+    <div class="card-body">
+      <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+    </div>
+    {% endif %}
+  </div>
+</div>

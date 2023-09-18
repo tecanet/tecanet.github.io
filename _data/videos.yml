@@ -1,0 +1,45 @@
+# add from below
+featured:
+  title: संस्कृतिविद् ठाकुर जंग गुरुङ द्वारा म्हाँ ङी त्हीँ पर्वको बिषयमा १ घण्टा तालिम
+  src: IxsjxonuR1Q
+others:
+  - title: नेपाल तमु बिधार्थी छोंज धिं नवलपरासी को आठौं अधिवेशन २०७९
+    src: qlGi-g-EIcI
+  - title: तमू यूवाहरुलाई सरकारी सेवामा अगाढी बढ्नको उदेश्यले सरकारी निकायमा तमूहरु बिषयक दशौं जुम संवाद श्रृखला
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F117181643622275%2F&show_text=false&width=560&t=0
+    thumbnail: videos/sarkari-nikay-ma-tamuharu.jpg
+    source_platform: facebook
+  - title: राष्ट्रिय जनगणना–२०७८ र सहभागिताको सवाल नवौं जुम संवाद श्रृखला
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F3601832629899488%2F&show_text=false&width=560&t=0
+    thumbnail: videos/rashtriya-janganana-2078.jpg
+    source_platform: facebook
+  - title: तमू चलचित्रको रजत जयन्ती तमू चलचित्रको महत्व, अवसर र चुनौतिहरु आठौं जुम संवाद श्रृखला
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F3691421447535186%2F&show_text=false&width=560&t=0
+    thumbnail: videos/tamu-chalchitra-rajat-jayanti.jpg
+    source_platform: facebook
+  - title: मातृभाषा शिक्षाको महत्व, सम्भावना र चुनौतीहरु सातौं जुम संवाद श्रृखला सातौं जुम संवाद श्रृखला
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F402933354024555%2F&show_text=false&width=560&t=0
+    thumbnail: videos/matribhashama_shiksha_ko_mahatva.jpg
+    source_platform: facebook
+  - title: बाढी पहिरो र पानीको कुरा, श्रोतव्यक्ति - श्री अजय दिक्षित, जलस्रोतविद छैटौं जुम संवाद श्रृखला
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F346759313374715%2F&show_text=false&width=560&t=0
+    thumbnail: videos/badi_pahiro_ra_pani_ko_kura.jpg
+    source_platform: facebook
+  - title: प्रयास गरे सकिन्छ, सन्दर्भ निजामती सेवामा तमुहरु बिषयक ५औँ जुम तमू संवाद
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F314153513059375%2F&show_text=false&width=560&t=0
+    thumbnail: videos/nijamati_sewama_tamuharu.jpg
+    source_platform: facebook
+  - title: तमू जातिमा 'खे मा' को महत्त्व विषयक चौथो जुम तमू संवाद
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F271229740772985%2F&show_text=false&width=560&t=0
+    thumbnail: videos/tamu_jati_ma_khai_mako_mahatva.jpg
+    source_platform: facebook
+  - title: राष्ट्रिय जनगणना–२०७८ र तमूहरुको सरोकार विषयक तेस्रो जुम तमू संवाद
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F1610145799146318%2F&show_text=false&width=560&t=0
+    thumbnail: videos/rashtriya_janaganana_sarokar.jpg
+    source_platform: facebook
+  - title: तमू (गुरुङ) जातिमा पे कार्य (अर्घुम) को महत्व विषयक पहिलो जुम तमू संवाद
+    src: https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftamustudentnepal%2Fvideos%2F600800137222663%2F&show_text=false&width=560&t=0
+    thumbnail: videos/tamu-jati-ma-pey-karya.jpg
+    source_platform: facebook
+  - title: कसरी गरिन्छ गुरुङ समुदायको अर्घौ ? एक शोध
+    src: YEGOZRLLyVY

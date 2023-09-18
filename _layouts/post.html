@@ -1,0 +1,77 @@
+---
+layout: default
+title: Blogs
+---
+
+<div class="blog-post-page">
+  <div class="container my-5">
+    <!-- Wrapper Start -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 post-container pt-3">
+        <h3 class="post-title">{{ page.title }}</h3>
+        <div class="row post-info mt-2">
+          <div class="col-md-8 col-sm-12 blog-card-heading">
+            <span><i class="fas fa-user mr-1"></i>&nbsp;{{ page.author }}</span>&nbsp;&nbsp;&nbsp;
+            <span><i class="fas fa-calendar-alt mr-1"></i>
+              {{ page.date_np }}
+            </span>
+            <small class="text-muted">
+              {% include read-time.html
+                         content=content
+                         bracket_start='('
+                         bracket_end=')'
+                         unit='min'
+                         approx='true'
+                         caption='read'
+              %}
+            </small>
+          </div>
+        </div>
+        <div class="my-4">
+          {% if page.cover_img %}
+            {% assign cover-img=page.cover_img %}
+            {% assign img-title=page.title %}
+            {% include image.html
+                          path=cover-img
+                          title=img-title
+                          class="full-width"
+            %}
+          {% endif %}
+          {% if page.news_source %}
+            <p>
+              <a href="{{ page.news_source }}" target="_blank">मूल समाचार स्रोतमा पढ्न यो लिङ्क क्लिक गर्नुहोस्। </a>
+            </p>
+          {% endif %}
+        </div>
+        <div class="post-body">
+          <div class="opening-text">{{ page.opening_text | markdownify }}</div>
+          {{ content }}
+        </div>
+
+        <!-- <ul class="post-tags">
+          {% for tag in page.tags %}
+            <li>
+              {% if page.is_tags_page %}
+                {% assign tag_url_base = "" %}
+              {% else %}
+                {% assign tag_url_base = "/blogs/tags/" %}
+              {% endif %}
+              <a href="{{ tag_url_base }}#{{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
+            </li>
+          {% endfor %}
+        </ul> -->
+      </div>
+      <div class="col-md-2 post-container">
+        {% include post-share.html %}
+      </div>
+
+
+    </div>
+
+    <div class="row justify-content-center py-4">
+      <div class="col-md-3 col-9">
+        <a href="/news/" class="btn btn-outline-primary px-5 py-3 w-100">सबै समाचारहरू</a>
+      </div>
+    </div>
+  </div>
+</div>

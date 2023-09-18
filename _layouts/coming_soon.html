@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="d-flex flex-column">
+    <div id="page-content">
+      {% unless page.coming_soon %}
+        <header>
+          {% include navbar.html %}
+        </header>
+      {% endunless %}
+
+      <main class="h-100">
+        {{ content }}
+      </main>
+
+      {% include javascripts.html %}
+    </div>
+  </body>
+
+</html>

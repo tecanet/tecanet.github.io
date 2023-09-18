@@ -1,0 +1,173 @@
+/* Custom SCSS */
+$color-primary: #1239C3;
+$color-secondary: #FC0103;
+$font-primary: "Lato", Helvetica, Arial, sans-serif;
+$font-secondary: "Playfair Display", Georgia, serif;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Lato", "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+}
+.page-margin {
+  margin-top: 100px;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+#sticky-footer {
+  flex-shrink: none;
+}
+ul {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.font-primary {
+  font-family: $font-primary;
+}
+.font-secondary {
+  font-family: $font-secondary;
+}
+.color-primary {
+  color: $color-primary;
+}
+.color-secondary {
+  color: $color-secondary;
+}
+
+#coming_soon {
+  height: 650px;
+  width: auto;
+  background: url($image_base_url + "/coming_soon_bg.jpg") 0% 0% / cover no-repeat;
+  color: #fff;
+
+  h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+  }
+
+  .banner {
+    img {
+      max-width: 15rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+#youtubeVideoModal, #facebookVideoModal {
+  top: 5%;
+
+  .modal-dialog {
+    .modal-content {
+      background-color: transparent;
+      border: none;
+
+      .modal-header {
+        border-bottom: none;
+        padding: 0 1em;
+
+        .btn-close {
+          background: url(data:image/png;base64,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);
+          background-size: cover;
+          margin-right: -2rem;
+        }
+      }
+    }
+  }
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  height: 5rem;
+  width: 5rem;
+}
+
+// apply form
+#apply {
+  height: 1900px;
+}
+
+.sl-wrapper {
+  background: rgba(0, 0, 0, 0.3);
+
+  .sl-close {
+    color: #fff;
+  }
+  .sl-navigation button.sl-prev, .sl-navigation button.sl-next {
+    color: #fff;
+    font-size: 4rem;
+  }
+}
+// modal dialog width
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 65%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .mb-block {
+    display: block;
+  }
+  #coming_soon {
+    background: url($image_base_url + "/coming_soon_bg_mb.jpg") 0% 0% / cover no-repeat;
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 1.5rem 0;
+    }
+  }
+
+  #youtubeVideoModal, #facebookVideoModal {
+    .modal-dialog {
+      .modal-content {
+        .modal-header {
+          .btn-close {
+            margin-right: -1rem;
+            width: 5px;
+            height: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  #apply {
+    height: 2300px;
+  }
+}
+@media screen and (max-width: 520px) {
+  #apply {
+    height: 2200px;
+  }
+}
+@media screen and (max-width: 440px) {
+  #apply {
+    height: 2300px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #apply {
+    height: 2400px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #apply {
+    height: 2450px;
+  }
+}
+
+@import "animate.min";
+@import "home";
+@import "blog";
+@import "util";
+@import "responsive";

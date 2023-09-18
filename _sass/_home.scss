@@ -1,0 +1,468 @@
+.language-switch-section {
+  border: 1px solid #fff;
+  margin-top: 5px;
+  padding: 2px;
+  border-radius: 4px;
+
+  .hide {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.section-padding {
+  padding: 6rem 0;
+}
+.section-padding-bottom {
+  padding-bottom: 6rem;
+}
+.section-heading {
+  color: $color-primary;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+.page-header {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: $color-primary;
+  }
+}
+.navbar {
+  padding: 1rem 0;
+
+  .navbar-brand {
+    height: 100%;
+    padding: 0;
+    font-family: $font-secondary;
+    font-size: 2rem;
+    font-weight: 600;
+    color: blue;
+
+    img {
+      height: 60px;
+    }
+    .brand-text-en {
+      font-size: 2.3rem;
+      margin-top: 5px;
+      color: #1200AF;
+    }
+  }
+
+  .navbar-nav {
+    margin-top: -5px;
+
+    .nav-item {
+      margin: 0 10px;
+
+      .nav-link {
+        font-size: 20px;
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.carousel-banner {
+  .carousel-item {
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 1rem 3rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.about-section {
+  .content-container {
+    padding-right: 1rem;
+
+    .title {
+      color: $color-primary;
+      font-family: $font-secondary;
+      font-size: 2rem;
+
+      .highlight {
+        font-size: 3rem;
+      }
+    }
+    .sub-title {
+      color: #555;
+      font-family: $font-primary;
+      font-size: 1.3rem;
+      line-height: 34px;
+    }
+  }
+}
+.mission-vision-section {
+  .card {
+    border: 0;
+
+    .icon-wrapper {
+      i {
+        font-size: 5rem;
+        color: $color-secondary;
+      }
+    }
+    .mission-card-title {
+      color: $color-primary;
+      font-weight: bold;
+    }
+    .mission-card-text {
+      color: #666;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.about-section {
+  .row .col-md-6:first-child {
+    padding-right: 4rem;
+  }
+  .title {
+    color: #b60b2e;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: $font-secondary;
+  }
+  .description {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 24px;
+    color: #555;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .btn {
+    background-color: #1239c3;
+    font-size: 20px;
+    padding: 15px 30px;
+
+    img {
+      height: 35px;
+      margin-left: 12px;
+    }
+  }
+}
+
+.join-call-section {
+  padding: 4rem 0;
+  background-color: $color-secondary;
+  color: #fff;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  .btn-join {
+    padding: 1.2rem 2.2rem;
+    font-size: 25px;
+  }
+}
+
+// videos
+.videos {
+  .card {
+    border: 1px solid #d1d1d1;
+    margin-bottom: 1.5rem;
+
+    .card-body {
+      height: 85px;
+      border-top: 1px solid #d1d1d1;
+
+      .card-title {
+        font-size: 15px;
+        color: #1239c3;
+      }
+    }
+  }
+}
+
+// blogs and testimonials
+.blogs-news-section {
+  background: #f9f9f9;
+
+  .container {
+    .item-title-wrapper {
+      padding-bottom: 10px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #ddd;
+      margin-bottom: 30px;
+      position: relative;
+
+      .title-head {
+        .item-title {
+          font-size: 32px;
+          display: inline;
+          margin-right: 20px;
+          color: #3f3f3f;
+          border-color: #3f3f3f;
+          font-weight: 600;
+        }
+        .item-title-link {
+          color: $color-secondary;
+          float: right;
+          font-size: 20px;
+          font-weight: 400;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          text-decoration: none;
+
+          &:after {
+            content: "\f101";
+            font-family: fontAwesome;
+            font-weight: 300;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+
+    .recent-news-container {
+      .card {
+        background-color: #f9f9f9;
+
+        .card-title {
+          color: $color-secondary;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// gallery
+#gallery,
+.gallery {
+  img {
+    height: 220px !important;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+.contact-section {
+  background-color: #0c2a95;
+  color: #fff;
+
+  .inner-box {
+    .service-info {
+      font-size: 18px;
+    }
+  }
+}
+
+footer {
+  background-color: #142c83;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+}
+
+
+// page specific styles
+
+.about-us-page {
+  .container {
+    max-width: 900px;
+  }
+  .about-text {
+    .hero-text {
+      font-size: 24px;
+      font-weight: 400;
+      color: #444;
+      line-height: 36px;
+    }
+    .normal-text {
+      font-size: 20px;
+      color: #666;
+      line-height: 33px;
+    }
+  }
+  .card {
+    background-color: #fff;
+    text-align: center;
+    border: transparent;
+
+    .card-img-top {
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      color: $color-primary;
+      font-weight: bold;
+    }
+    .card-subtitle {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 0.8rem;
+    }
+    .card-body {
+      padding: 0 !important;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .page-header {
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: $color-primary;
+    }
+  }
+  .navbar {
+    padding: 10px 0;
+
+    .navbar-brand {
+      .brand-img {
+        height: 30px;
+        margin-top: 0;
+      }
+      .brand-text {
+        font-size: 1.2rem;
+      }
+      .brand-text-en {
+        font-size: 10px;
+        margin-top: -4px;
+        color: $color-secondary;
+      }
+    }
+  }
+  .mb-block {
+    display: block;
+  }
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .section-padding {
+    padding: 4rem 0;
+  }
+  .carousel-banner {
+    height: 32vh;
+
+    .carousel-item {
+      .carousel-caption {
+        padding: 12px;
+        margin-bottom: 0;
+
+        h1 {
+          font-size: 14px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .about-section {
+    .row .col-md-6:first-child {
+      padding-right: 0;
+      margin-bottom: 3rem;
+    }
+    .title {
+      font-size: 2.5rem;
+    }
+    .description {
+      font-size: 18px;
+    }
+    .btn {
+      font-size: 18px;
+      padding: 10px 20px;
+
+      img {
+        height: 30px;
+      }
+    }
+  }
+
+  .join-call-section {
+    .btn-join {
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      font-size: 18px;
+    }
+  }
+
+  .videos {
+    .action-btns {
+      .col-9 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  #gallery,
+  .gallery {
+    img {
+      height: 135px !important;
+    }
+  }
+
+  .blogs-news-section {
+    .item-title-wrapper {
+      .title-head {
+        text-align: center;
+      }
+    }
+    .recent-news-container {
+      .col-md-4 {
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .container .item-title-wrapper .title-head .item-title-link {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  .contact-section {
+    .contact-details {
+      margin-top: 3rem !important;
+    }
+    .inner-box.social-page {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+.ml-to-auto {
+  margin-left: auto;
+}
+
+// Videos section styling
+#videos {
+  .card-img,
+  .card-img-top {
+    height: 12rem !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

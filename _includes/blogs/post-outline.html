@@ -1,0 +1,23 @@
+<div class="card h-100 border-0 p-3">
+  <div class="maxthumb">
+    <a href="{{ include.post.url }}">
+      <img
+        src="{{ site.image_base_url }}/{{ include.post.thumbnail }}"
+        class="card-img-top"
+        alt="{{ include.post.title }}"
+      />
+    </a>
+  </div>
+  <div class="card-body pt-4 px-0 pb-0">
+    <h5 class="card-title">{{ include.post.title }}</h5>
+    <p class="mb-3">{{ include.post.date_np }}</p>
+    <p class="card-text">
+      {{ include.post.content | strip_html | truncate: 100 }}
+      <a
+        href="{{ include.post.url | prepend: site.url }}"
+        class="text-success ml-3"
+        >थप पढ्नुहोस् &#8594;</a
+      >
+    </p>
+  </div>
+</div>

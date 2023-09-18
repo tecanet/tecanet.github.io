@@ -1,0 +1,29 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+page_name: gallery
+---
+
+<main>
+  <section class="gallery-section section-padding">
+    {% include page-header.html %}
+
+    <div class="container pt-5">
+      <div class="row gallery justify-content-center">
+        {% for img_index in (1..15) %}
+        <div class="col-md-3 col-6">
+          <a href="{{ site.image_base_url }}/gallery/{{ img_index }}.jpg" class="gallery-link">
+            <img
+              data-src="{{ site.image_base_url }}/gallery/{{img_index}}.jpg"
+              class="img-fluid lozad"
+              alt="Image {{ img_index }}"
+              data-proofer-ignore
+            />
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

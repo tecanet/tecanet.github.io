@@ -1,0 +1,21 @@
+---
+layout: default
+title: समाचारहरू
+permanlink: /news/
+---
+
+<div class="blogs-page section-padding pb-5">
+  {% include page-header.html %}
+
+  <div class="blogs-body pt-3">
+    <div class="container">
+      <div class="row">
+        {% for post in site.posts %}
+        <div class="col-md-6 col-lg-3 mb-4">
+          {% include blogs/post-outline.html post=post %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

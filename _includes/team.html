@@ -1,0 +1,20 @@
+{% for member in include.team %}
+  <div class="{% if include.col_classes %}{{ include.col_classes }}{% else %}col-md-6{% endif %}">
+    <div class="card team-card">
+      <img src="{{ site.image_base_url }}/team/{{ member.img }}" class="card-img-top" alt="{{ member.name }}">
+      <div class="card-body text-center">
+        <h3 class="card-title member-name">{{ member.name }}</h3>
+        <h5 class="card-subtitle member-designation">
+          {{ member.designation }}
+        </h5>
+        <div class="actions mt-2">
+          {% for contact in member.contacts %}
+            <a href="{{ contact.url }}" target="_blank" title="{{ contact.label }}">
+              <i class="{{ contact.icon }} fa-lg mr-2"></i>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

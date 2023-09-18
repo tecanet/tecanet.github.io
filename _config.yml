@@ -1,0 +1,25 @@
+title: TECANET
+email: tecanetnepal@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  An informal platform to share and exchange experiences and expertise
+  in an effort to address the challenges faced by the majority of
+  Tamu youth in their education and career advancement.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tecanet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+image_base_url: /assets/img
+# image_base_url: https://digitalsoltee.sirv.com/tamustudents/img
+
+google_analytics:
+
+future: true # Show blog post of future date
+permalink: /news/:title/
+
+sass:
+  style: compressed
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - .DS_Store
+  - README.md

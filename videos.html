@@ -1,0 +1,42 @@
+---
+layout: default
+title: भिडियोहरू
+permalink: /videos/
+---
+
+<div class="videos-page section-padding">
+  {% include page-header.html %}
+  {% assign featured_video = site.data.videos.featured %}
+
+  <div class="videos-body pt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="featured-video">
+            <a
+              href="#"
+              data-src="https://www.youtube.com/embed/{{ featured_video.src }}"
+              data-bs-toggle="modal"
+              data-bs-target="#youtubeVideoModal"
+              class="youtube-video-btn"
+            >
+              <img src="{{ site.image_base_url }}/videos/featured_video_thumb.jpg" class="featured-video-img rounded-3 w-100" alt="{{ featured_video.title }}"" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-body h-100 d-flex justify-content-center align-items-center">
+            <h1 class="mb-0">{{ featured_video.title }}</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        {% for video in site.data.videos.others %}
+        <div class="col-md-6 col-lg-3 mb-5">
+          {% include /videos/video-section-outline.html video=video %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+- name: पुकार गुरुङ
+  designation: संयोजक, संरक्षक परिषद तथा निवर्तमान अध्यक्ष
+  img: pukar.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/pukaar.ggrung
+      icon: fab fa-facebook-f
+
+- name: बिश्वराज गुरुङ
+  designation: अध्यक्ष
+  img: bishworaj.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/bishowraj.gurung
+      icon: fab fa-facebook-f
+
+- name: नरेश गुरुङ
+  designation: वरिष्ठ उपाध्यक्ष
+  img: naresh.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/ghotaney.naresh
+      icon: fab fa-facebook-f
+
+- name: सुदन गुरुङ
+  designation: उपाध्यक्ष
+  img: sudan.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/profile.php?id=100078870530497
+      icon: fab fa-facebook-f
+
+- name: पवन गुरुङ
+  designation: महासचिव
+  img: pawan.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/pawan.grg.127
+      icon: fab fa-facebook-f
+
+- name: बिशाल गुरुङ
+  designation: उप महासचिव
+  img: bishal.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/bishal.gurung95
+      icon: fab fa-facebook-f
+
+- name: परशुराम गुरुङ (रोहित)
+  designation: कोषाध्यक्ष
+  img: parshuram.jpg
+  contacts:
+    - label: Facebook
+      url: https://www.facebook.com/profile.php?id=100004160464799
+      icon: fab fa-facebook-f
